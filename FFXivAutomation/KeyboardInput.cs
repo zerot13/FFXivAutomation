@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace MovementSim
+namespace FFXivAutomation
 {
     public static class KeyboardInput
     {
