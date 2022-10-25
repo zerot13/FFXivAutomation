@@ -1,14 +1,13 @@
-﻿namespace FFXivAutomation.Crafting
-{
-    public class HqMaterial
-    {
-        public HqMaterial(int row, int count)
-        {
-            Row = row;
-            Count = count;
-        }
+﻿namespace FFXivAutomation.Crafting;
 
-        public int Row { get; }
-        public int Count { get; }
+public class HqMaterial
+{
+    public HqMaterial(int row, int count)
+    {
+        Row = row;
+        Count = count;
     }
+
+    public int Row { get; }
+    public int Count { get; }
 }
